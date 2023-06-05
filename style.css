@@ -184,8 +184,9 @@ p {
   transition: all 0.5s ease-in;
 }
 
-.border__card:hover {
-  transform: translateY(-1.8rem);
+.border__card:hover,
+.fourth__card-section:hover {
+  transform: translateY(-1.5rem);
 }
 
 .border__card-title {
@@ -243,7 +244,7 @@ p {
   color: #fffffd;
 }
 
-/*****Second Section*****/
+/*****Third Section*****/
 
 .third__section-content {
   padding: 5.75rem 0;
@@ -258,4 +259,49 @@ p {
 
 .left__section3 h2 {
   margin-bottom: 1.25rem;
+}
+
+/*****Fourth Section*****/
+
+.section__fourth-content {
+  padding: 5.75rem 0;
+  display: flex;
+  gap: 1.87rem;
+}
+
+.upper__cards,
+.down__cards {
+  display: flex;
+  gap: 1.87rem;
+  margin-bottom: 1.87rem;
+}
+
+.fourth__card-section {
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.title__content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  bottom: 2rem;
+  left: 1rem;
+}
+
+.title__content-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-bottom: 0.25rem;
+}
+
+.title__content-text h5 {
+  font-family: "Inter" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fffffd;
 }
